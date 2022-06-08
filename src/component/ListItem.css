@@ -1,0 +1,17 @@
+.poster img{
+    
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .poster{
+    text-align: center;  
+  }
+.movie-cover{
+    width:100%;
+    
+      background-color: grey;
+      width: 250px;
+      margin: 10px;
+      border-radius: 5px;
+      border: 2px solid silver;
+  }

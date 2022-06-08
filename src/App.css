@@ -12,6 +12,78 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.light{
+  background-color: white;
+  color: black;
+}
+form {
+ display: flex; 
+ align-items: center;
+ justify-content: right;
+
+}
+form input {
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+form button{
+  height: 30px;
+  outline: none;
+  background-color: coral;
+  color: white;
+}
+.poster{
+  width: 100%;
+}
+header{
+  
+}
+.film-rating{
+  background-color: #282c34;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid greenyellow;
+  margin-top: 1px;
+}
+.film-title{
+  margin-top: -10px;
+}
+.movie-content{
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.poster{
+  width: 250px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.movie-overview{
+  font-size: 19px;
+  font-weight: 500px;
+}
+.movie-container{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
+.banner{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  top :10px;
+}
 
 .App-header {
   background-color: #282c34;
